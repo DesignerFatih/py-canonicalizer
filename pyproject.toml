@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-canonicalizer"
+version = "0.1.0"
+description = "A universal tool for preparing polyline data for algorithms like RDP, by solving the arbitrary start-point problem."
+readme = "README.md"
+authors = [{name = "Your Name", email = "your_email@example.com"}]
+dependencies = [
+    "numpy",
+]
+requires-python = ">=3.8"
+keywords = ["rdp-algorithm", "polyline-simplification", "canonical", "computational-geometry", "gis", "rhino", "grasshopper"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering",
+    "Operating System :: OS Independent",
+]
